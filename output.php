@@ -8,9 +8,8 @@
     
     
     $hotel = $_POST['hotel'];
-    $room = $_POST['room-type'];
     if($hotel == 'river_side'){
-        if($room == '')
+        echo("hi");
     }
     else{
         echo("hi2");
