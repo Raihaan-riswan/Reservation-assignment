@@ -1,3 +1,101 @@
-h1{
-    text-align: center;
+/* style.css — Luxury Hotel UI */
+
+/* Background and layout */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1c1c1c, #2c3e50);
+  color: #ecf0f1;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Form container */
+form {
+  background: #2c3e50;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  width: 700px;
+  border: 1px solid #d4af37;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #d4af37; /* Gold accent */
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+td, th {
+  padding: 12px;
+  vertical-align: top;
+  color: #ecf0f1;
+}
+
+th {
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+/* Inputs and selects */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  background-color: #34495e;
+  color: #fff;
+  font-size: 14px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #f1c40f;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  margin-right: 8px;
+  accent-color: #d4af37;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background: #d4af37;
+  color: #2c3e50;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 20px auto 0;
+}
+
+input[type="submit"]:hover {
+  background: #f1c40f;
+}
+
+/* Section spacing */
+form > input[type="radio"] {
+  margin: 12px 12px 12px 0;
 }
