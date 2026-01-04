@@ -8,8 +8,14 @@
     
     
     $hotel = $_POST['hotel'];
+    $room =  $_POST['room-type'];
     if($hotel == 'river_side'){
-        echo("hi");
+        if($room == 'standard-double'){
+            echo('hello');
+        }
+        else{
+            echo('hello2');
+        }
     }
     else{
         echo("hi2");
